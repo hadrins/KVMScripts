@@ -9,6 +9,7 @@ Maybe one day I will add the menu to do back ups.
 You need to edit the enable the serial console on the VM and start it. 
 
 systemctl enable serial-getty@ttyS0.service
+
 systemctl start serial-getty@ttyS0.service
 
 Execute the script and it should start by listing the VMs installed on your server and allow you to select a VM. 
